@@ -68,7 +68,7 @@ export function Hero() {
                 className="little_boy_image"
               />
             </div>
-            <div className="hero_main_content__topimage__wrapper studentsinfo">
+            <div className="hero_main_content__topimage__wrapper__studentsinfo">
               <div className="studentsinfo_count">
                 <h4>10k+</h4>
                 <h4>Student</h4>
@@ -82,17 +82,18 @@ export function Hero() {
           </div>
 
           <div className="hero_main_content__bottomimage__wrapper">
-            <div className="hero_main_content__bottomimage__wrapper coursesinfo">
+            <div className="hero_main_content__bottomimage__wrapper__coursesinfo">
                 <div className="coursesinfo_count">
-                    <h3>48k</h3>
+                    <h3>5.8k</h3>
                     <h5>Success Courses</h5>
                 </div>
-                <div className="hero_main_content__bottomimage__wrapper_blue">
+            </div>
+            <div className="hero_main_content__bottomimage__wrapper_blue">
                 <img
-                  src={LittleGirl} alt="Little Girl"
+                  src={LittleGirl} 
+                  alt="Little Girl"
                 className="little_girl_image" />
                 </div>
-            </div>
           </div>
         </main>
         <aside className="aside side_image">

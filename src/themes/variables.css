@@ -4,6 +4,7 @@
     --secondary-color-page-banner: #FF9E0E;
     --primary-color-hero: #FF9500;
     --secondary-color-hero: #00BEAE;
+    --third-color-hero: #17254E;
 
 
     /* font-size */
@@ -14,6 +15,7 @@
     /* measurements */
     --padding-left: 18.75rem;
     --padding-right: 18.75rem;
-    --width: 1920px;
-    
+    --max-width: 120rem;
+
+   
 }
