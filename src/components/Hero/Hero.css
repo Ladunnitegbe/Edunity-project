@@ -1,6 +1,7 @@
 @import url(../../themes/variables.css);
 @import url(../../themes/global.css);
 
+
 .leftside_image {
   width: 19.875rem;
   height: 9.75rem;
@@ -13,7 +14,7 @@
   height: 18.1875rem;
   position: absolute;
   top: 3.0187rem;
-  left: 97.6125rem;
+  left: 104.6125rem;
 }
 
 .rightside_image__crossicon {
@@ -24,10 +25,11 @@
 
 .hero {
   position: relative;
-  background-color: #fff8f0;
+  background-color: var(--background-color-hero);
   height: 50.3125rem;
   width: 100%;
   max-width: var(--max-width);
+  
 }
 
 .hero_main_content {
@@ -47,6 +49,7 @@
   position: relative;
   margin-top: 13.6687rem;
   font-family: var(--font-family-body);
+  margin-right: 0;
 }
 
 .hero_main_content__title___crossicon {
@@ -59,7 +62,7 @@
 
 .hero_main_content__title___header_container {
   height: 13.8125rem;
-  width: 40.5rem;
+  width: 38.5rem;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -69,7 +72,7 @@
 .hero_main_content__title___header {
   color: var(--third-color-hero);
 
-  width: 33.7263rem;
+  width: 32.7263rem;
   height: 13.5rem;
   line-height: 4.5rem;
   font-weight: bold;
@@ -86,6 +89,12 @@
   justify-self: left;
   align-self: center;
   margin-bottom: 1.9156rem;
+  width: 36.7731rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 50px;
+  height: 4.0375rem;
 }
 
 .cloudimage {
@@ -146,6 +155,7 @@
 .hero_main_content__topimage__wrapper{
     display: flex;
     flex-direction: column;
+    margin-left: 0;
 }
 
 .hero_main_content__topimage__wrapper__orange {
@@ -214,7 +224,8 @@
 .hero_main_content__bottomimage__wrapper{
     display: flex;
     flex-direction: column;
-    margin-left: 1.3rem;
+margin-left: 0;
+    margin-right: 0;
 }
 
 .coursesinfo_count{
@@ -265,5 +276,5 @@
   z-index: 10;
   position: absolute;
   bottom: 0.1rem;
-  right: 0.25rem;
+  right: -2rem;
 }
