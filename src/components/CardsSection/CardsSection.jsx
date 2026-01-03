@@ -1,9 +1,11 @@
-import "./Cards_section.css";
+import "./CardsSection.css";
 import Abcblocks from "../../assets/images/card_images/Abcblocks.svg?react";
 import Teachingteacher from "../../assets/images/card_images/Teachingteacher.svg?react";
 import Building from "../../assets/images/card_images/Building.svg?react";
+// import MultiplePeople from "../../assets/images/hero_images/multiplepeople.png";
+// import { MultiplePeopleButton } from "../MultiplePeopleButton/MultiplePeopleButton.jsx";
 
-export function Cards_section() {
+export function CardsSection() {
   return (
     <>
       <section className="cards_section">
@@ -38,6 +40,13 @@ export function Cards_section() {
           </p>
         </article>
       </section>
+
+      {/* <MultiplePeopleButton
+  count="Coming Soon"
+  label="Students"
+  image={MultiplePeople}
+  disabled
+/> */}
     </>
   );
 }

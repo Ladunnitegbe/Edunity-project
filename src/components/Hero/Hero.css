@@ -9,12 +9,14 @@
   position: absolute;
   top: 0;
 }
+
+
 .rightside_image {
-  width: 18.1875rem;
+  width: 13.4375rem;
   height: 18.1875rem;
   position: absolute;
   top: 3.0187rem;
-  left: 104.6125rem;
+  left: 101.6125rem;
 }
 
 .rightside_image__crossicon {
